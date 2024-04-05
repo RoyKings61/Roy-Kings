@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="view port" content ="width=device-width,initial scale=1.0">
+   <title>Form Validator</title>
+</head>
+<body>
+    <div class="container">
+        <div class= "box">
+            <header class ="signup-header">
+                <h1>Sign UP</h1>
+            </header>
+            <main class ="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="name">Full name</label>
+                        <input type="text" name="name" id="" placeholder="Type your name Here">
+                        <span id="nameError"></span>
+                    </p>
+                    <p>
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" placeholder="Type your email Here">
+                        <span id="emailError"></span>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter password Here">
+                        <span id="passwordError"></span>
+                    </p>
+                </form>
+            </main>
+        </div>
+    </div>
+    <h1>Java Script</h1>
+    <input type="text" id="inputfield" placeholder="Type here">
+    <input type=" button" value="Submit" onclick="submit()">
+    <script src="index.js"></script>
+</body>
+</html>
